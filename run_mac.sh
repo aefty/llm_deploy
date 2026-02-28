@@ -52,7 +52,7 @@ case "${1}" in
     ;;
   apertus_8b)
     MODEL=mlx-community/Apertus-8B-Instruct-2509-bf16
-    MAX_MODEL_LEN=8192
+    MAX_MODEL_LEN=4096
     ;;
   apertus_8b_8bit)
     MODEL=mlx-community/Apertus-8B-Instruct-2509-8bit
