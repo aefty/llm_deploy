@@ -1,0 +1,9 @@
+HF.token
+API.keys
+API.key
+model_cache_mac/
+model_cache_linux/
+model-cache/
+__pycache__/
+*.pyc
+.DS_Store
