@@ -58,7 +58,8 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 ```
-**for mlx_lm there is no need for `API.keys` nor `HF.token`**
+For mlx_lm there is no need for `API.keys` nor `HF.token`
+
 ---
 
 ## Testing
