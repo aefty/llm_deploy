@@ -8,7 +8,9 @@
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 MODEL_CACHE="$SCRIPT_DIR/model_cache_linux"
 DOCKER_IMAGE="vllm/vllm-openai:latest"
-mkdir -p "$MODEL_CACHE"
+if [ ! -d "$MODEL_CACHE" ]; then
+  mkdir -p "$MODEL_CACHE"
+fi
 
 # ── Credentials ───────────────────────────────────────────────────────
 

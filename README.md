@@ -21,19 +21,23 @@ Credential files are not included. They are auto-created with instructions on fi
 ## Run
 
 **Mac**
+
 ```bash
 pip install mlx_lm
 ./run_mac.sh <model> <port>
 ```
 
 **Linux**
+
 ```bash
-./run_linux.sh <model> <port>
+./run_linux
+.sh <model> <port>
 ```
 
 Available models:
 
 **Mac**
+
 - `qwen_0.5b` — mlx-community/Qwen2.5-0.5B-Instruct-4bit
 - `apertus_8b` — mlx-community/Apertus-8B-Instruct-2509-bf16
 - `apertus_8b_8bit` — mlx-community/Apertus-8B-Instruct-2509-8bit
@@ -42,6 +46,7 @@ Available models:
 - `meta_llama_8b` — mlx-community/Meta-Llama-3.1-8B-Instruct-4bit
 
 **Linux**
+
 - `qwen_0.5b` — Qwen/Qwen2.5-0.5B-Instruct
 - `apertus_8b` — swiss-ai/Apertus-8B-Instruct-2509
 - `apertus_70b` — swiss-ai/Apertus-70B-Instruct-2509
@@ -63,6 +68,7 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 ```
+
 For mlx_lm there is no need for `API.keys` nor `HF.token`
 
 ---
