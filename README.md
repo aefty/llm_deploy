@@ -33,13 +33,18 @@ pip install mlx_lm
 
 Available models:
 
-| Model | Mac | Linux |
-|---|---|---|
-| `qwen_0.5b` | qwen2.5:0.5b (4bit) | Qwen/Qwen2.5-0.5B-Instruct |
-| `apertus_8b` | Apertus-8B-bf16 | swiss-ai/Apertus-8B-Instruct-2509 |
-| `apertus_8b_4bit` | Apertus-8B-4bit | — |
-| `apertus_70b` | — | swiss-ai/Apertus-70B-Instruct-2509 |
-| `meta_llama_8b` | Llama-3.1-8B (4bit) | — |
+**Mac**
+- `qwen_0.5b` — mlx-community/Qwen2.5-0.5B-Instruct-4bit
+- `apertus_8b` — mlx-community/Apertus-8B-Instruct-2509-bf16
+- `apertus_8b_8bit` — mlx-community/Apertus-8B-Instruct-2509-8bit
+- `apertus_8b_6bit` — mlx-community/Apertus-8B-Instruct-2509-6bit
+- `apertus_8b_4bit` — mlx-community/Apertus-8B-Instruct-2509-4bit
+- `meta_llama_8b` — mlx-community/Meta-Llama-3.1-8B-Instruct-4bit
+
+**Linux**
+- `qwen_0.5b` — Qwen/Qwen2.5-0.5B-Instruct
+- `apertus_8b` — swiss-ai/Apertus-8B-Instruct-2509
+- `apertus_70b` — swiss-ai/Apertus-70B-Instruct-2509
 
 ---
 
